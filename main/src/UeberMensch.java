@@ -6,6 +6,8 @@ public class UeberMensch {
     int strength;
     int healthPoints;
 
+    // Add constructors here
+
     void shout() {
         System.out.println("Hello I am " + userName + " an UeberMensch");
     }
