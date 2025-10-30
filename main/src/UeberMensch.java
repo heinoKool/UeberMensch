@@ -7,8 +7,11 @@ public class UeberMensch {
     int healthPoints;
 
     // Add constructors here
-    // Default constructor (automatisch vorhanden)
-    // verschwindet, wenn andere Konstuktoren hinzugefügt werden
+    // 1. Konstruktor ist die erste Methode!
+    // 2. Konstruiert das Object und setzt die Attribute
+    // 3. Ohne eigenen gilt der leere default Konstruktor
+    // 4. Wird ein Konstruktor definiert, verschwindet der Default-Konstruktor
+    // 5. Erstellt sofort einsatzbereite Objekte
     UeberMensch() {
     }
 
